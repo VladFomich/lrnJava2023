@@ -1,7 +1,17 @@
 package Seminar_2;
 import java.io.File;
-import java.io.FileWriter;
+
 public class HomeworkEx3 {
+
+//    Напишите метод, который определит тип (расширение) файлов из текущей папки
+//    и выведет в консоль результат вида:
+//
+//        1 Расширение файла: txt
+//        2 Расширение файла: pdf
+//        3 Расширение файла:
+//        4 Расширение файла: jpg
+
+
     public static void main(String[] args) {
         File file = new File("C:\\DOWN\\JAVA\\lrnJava2023");
         String[] fileExtList = file.list();
