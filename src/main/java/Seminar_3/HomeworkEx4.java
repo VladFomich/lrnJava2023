@@ -1,5 +1,4 @@
 package Seminar_3;
-
 import java.util.*;
 public class HomeworkEx4 {
     public static void main(String[] args) {
